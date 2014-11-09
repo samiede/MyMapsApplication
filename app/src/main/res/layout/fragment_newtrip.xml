@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+    <EditText
+            android:id="@+id/trip_title"
+            android:layout_marginTop="30dp"
+            android:hint="@string/new_trip_name"
+            android:inputType="textCapSentences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"/>
+
+    <Button
+            android:id="@+id/btn_start_trip"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_trip"
+            android:layout_below="@+id/trip_title"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

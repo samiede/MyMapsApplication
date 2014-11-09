@@ -2,6 +2,23 @@
 <resources>
 
     <string name="app_name">My Maps Application</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps">Trippstr</string>
+
+
+
+    <string name="new_trip">New Trip</string>
+    <string name="recent">Recent</string>
+    <string name="start_trip">Start</string>
+    <string name="new_trip_name">Title</string>
+    <string name="continuable">continuable</string>
+    <string name="header">header for listview</string>
+    <string name="pause_trip">Pause trip</string>
+    <string name="end_trip">End trip</string>
+    <string name="infotext">
+
+        To start a new Trip, simply press the "New Trip Button!
+
+For more options during a trip, long tap on the map!
+    </string>
 
 </resources>

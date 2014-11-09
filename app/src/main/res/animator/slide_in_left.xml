@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:ordering="sequentially">
+    <objectAnimator
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:interpolator="@android:interpolator/accelerate_cubic"
+            android:propertyName="x"
+            android:duration="200"
+            android:valueFrom="-1000"
+            android:valueTo="-1030"
+            android:valueType="floatType" />
+
+    <objectAnimator
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:propertyName="x"
+            android:valueFrom="-1030"
+            android:valueTo="50"
+            android:valueType="floatType" />
+    <objectAnimator
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:interpolator="@android:interpolator/decelerate_cubic"
+            android:propertyName="x"
+            android:duration="150"
+            android:valueFrom="50"
+            android:valueTo="0"
+            android:valueType="floatType" />
+
+</set>
