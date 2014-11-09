@@ -296,12 +296,12 @@ public class FragmentMap extends Fragment implements
 
             routeList.add(route);
         }
-/*
+
         CameraPosition position = CameraPosition.builder()
                 .target(wholeList.get(0).get(0))
                 .zoom(15)
                 .build();
-        mMap.animateCamera(CameraUpdateFactory.newCameraPosition(position));*/
+        mMap.animateCamera(CameraUpdateFactory.newCameraPosition(position));
 
 
         Log.d("MAP", "DREW ROUTE");
